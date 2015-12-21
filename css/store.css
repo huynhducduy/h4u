@@ -1,0 +1,147 @@
+.mainL{
+    width: 690px;
+    margin: 13px 24px !important;
+    margin: 13px 17px;
+    height: auto;
+    padding: 0;
+}
+
+.itemProvince{
+    width: 650px;
+    margin-left: 20px;
+    height: auto;
+    padding: 10px 0 8px;
+    overflow: hidden;  
+    background: transparent url(../images/point/dot_border.gif) bottom left repeat-x;  
+}
+
+.subTitle_province{
+    width: 490px;
+    height: auto;
+    padding-left: 8px;
+}
+
+.titleProvince{
+    color: #0080c0;
+    font: bold 14px Tahoma, Arial;
+    width: 482px;
+    padding-bottom: 4px;
+    height: auto;
+}
+
+.subProvince{
+    color: #7f7f7f;
+    width: 490px;
+    width: 482px;
+    padding: 1px 0px;
+    height: auto;
+}
+
+.titlePoint{
+    width: 690px;
+    font: bold 20px Tahoma, Arial;
+    color: #4bb2e5;
+    height: auto;
+    padding-bottom: 9px;
+}
+
+.imgProvince{
+    width: 142px;
+    height: 69px;
+    padding: 0;
+    margin: 0;
+}
+
+.mainR{
+    width: 231px;
+    height: auto;
+    margin-top: 13px;
+    margin-right: 20px;
+}
+
+.listPro{
+    width: 231px;
+    height: auto;
+    min-height: 100px;
+    background: transparent url(../images/point/bg_title.png) top left repeat-x;
+    padding: 0;
+    margin: 0;
+}
+
+.listPro_t{
+    height: 26px;
+    width: 231px;
+}
+
+.borL{
+    background: transparent url(../images/point/borL.png) top left no-repeat;
+    height: 26px;
+    width: 5px;
+}
+
+.borR{
+    background: transparent url(../images/point/borR.png) top left no-repeat;
+    height: 26px;
+    width: 5px;
+}
+
+.titleList{
+    height: 26px;
+    width: 126px;
+    margin-left: 6px;
+    background: transparent url(../images/point/pro_over.png) top left no-repeat;
+}
+
+.mainList{
+    width: 229px;
+    height: auto;
+    border-left: 1px solid #c6c6c6;
+    border-right: 1px solid #c6c6c6;
+}
+
+.footer_List{
+    background: transparent url(../images/point/bg_footer_list.png) top left repeat-x;
+    height: 6px;
+    width: 231px;
+}
+
+.borLf{
+    background: transparent url(../images/point/borLf.png) top left repeat-x;
+    height: 6px;
+    width: 6px;
+}
+
+.borRf{
+    background: transparent url(../images/point/borRf.png) top left repeat-x;
+    height: 6px;
+    width: 6px;
+}
+
+.itemProList{
+    width: 200px;
+    margin-left: 12px;
+    min-height: 40px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    height: auto;
+}
+
+.titleItemsPro{
+    width: 200px;
+    font: bold 16px Arial, Tahoma;
+    color: #6e6e6e;    
+    text-align: center;
+}
+
+.priceItemsPro{
+    width: 200px;
+    height: auto;
+    color: #7f7f7f;
+    font: bold 13px Tahoma, Arial;
+    text-align: center;
+}
+
+.priceItemsPro span{
+    color: #ef9014;
+    font: bold 13px Tahoma, Arial;    
+}

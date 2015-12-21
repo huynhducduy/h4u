@@ -1,0 +1,173 @@
+        h3 {
+            margin: 0;    
+            padding: 7px 0 0 0;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+        div#feature_list {
+            width: 962px;
+            height: 421px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        div#feature_list ul.preimg {
+            position: absolute;
+            top: 0;
+            list-style: none;    
+            padding: 0;
+            margin: 1px 0;
+        }
+        
+        div#feature_list ul.tabimg {
+            position: absolute;
+            right: 9px;
+            bottom: 7px;            
+            list-style: none;    
+            padding: 0;
+            margin: 0;
+        }
+        
+        div#conten_banner_lf{
+            left : 0;
+            height: 421px;
+            width: 6px;
+            background: transparent url(../images/bg_bn_left.png) no-repeat scroll 0 0 !important;
+            background: transparent url(../images/bg_bn_left.gif) no-repeat scroll 0 0;
+            position: absolute;
+            z-index: 3; 
+        }
+        div#conten_banner_rg{
+            right: 0;
+            height: 421px;
+            width: 6px;
+            background: transparent url(../images/bg_bn_right.png) no-repeat scroll 0 0 !important;
+            background: transparent url(../images/bg_bn_right.gif) no-repeat scroll 0 0;
+            position: absolute;
+            z-index: 3; 
+        }
+                
+        div#conten_banner{
+            border: 1px solid #cbcbcb;  
+            height: 419px;
+            width: 960px;  
+        }
+        
+       ul#tabs {           
+            z-index: 2;
+            width: auto;
+            font-weight: bold;
+            height: auto;
+        }
+
+        ul#tabs li {
+            font-size: 13px;
+            margin-left: 4px;
+            width: 16px;
+            height: auto;
+        }      
+        
+        ul#tabs li a {
+            color: #494949;
+            text-decoration: none;
+            background: transparent; 
+            display: block;
+            height: auto;
+            width: 16px;
+            outline: none;
+        }
+
+        ul#tabs li a:hover {
+            color: #fff;
+            background: transparent;
+        }
+
+        ul#tabs li a.current {
+            background: transparent;
+            z-index: 4;
+            height: auto;
+            outline: none;
+            text-decoration: none;
+            width: 16px;
+            color: #FFF;
+        }
+        
+        ul#tabs li a.current:hover {
+            text-decoration: none;
+            height: auto;
+            cursor: default;
+        }
+        
+        .tabBN{
+            height: 42px;
+            width: 170px;
+            vertical-align:middle;
+        }
+
+        ul#output {
+            left: 0;
+            width: 960px;
+            height: 420px;
+            position: absolute;
+        }
+
+        ul#output li {
+            position: absolute;
+            width: 960px;
+            height: 420px;
+        }
+
+        ul#output li a{
+            padding: 0;
+            border: none;
+            outline: none;
+            text-decoration: none;
+/*            -moz-border-radius: 5px;*/
+        }
+        
+        ul#output li a.active{
+            outline: none;
+            border: none;
+            text-decoration: none;
+        }
+        
+        ul#output li a img{
+            outline: none;
+            border: none;
+        }
+        
+        #slideInfo{
+            bottom: 2px !important;
+            bottom: 1px;
+            left: 0px;
+            border-top: 1px solid #fff;
+            width: 962px;
+            z-index: 1;
+            height: 25px;
+            position: absolute;
+            filter:alpha(opacity=20);
+            -moz-opacity: 0.2;
+            opacity: 0.2;
+            background-color: #000;
+        }
+        
+        ul#output li p.title_slide{
+            color: #414141;
+            font: 13px Tahoma, arial;
+            line-height: 12px;
+            bottom: 8px;
+            position: absolute;
+            left: 8px;
+            z-index: 2;
+        }
+        
+        ul#output li p.sub_title_slide{
+            color: #fff;
+            font: 11px Tahoma, arial;
+            line-height: 12px;
+            bottom: -2px;
+            position: absolute;
+            left: 6px;
+            z-index: 2;
+        }

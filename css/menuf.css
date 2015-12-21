@@ -1,0 +1,49 @@
+
+ul.footerMenu{
+	height:30px;
+    width: auto;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:13px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+ul.footerMenu li{
+	display:inline-block;
+	float:left;
+    padding-right: 2px;
+	height:30px;
+    background: transparent url(../images/seppr.gif) top right no-repeat;
+	list-style-type:none;
+	overflow:hidden;
+}
+
+ul.footerMenu li a, 
+ul.footerMenu li a:visited{
+	text-decoration:none;
+}
+
+ul.footerMenu li a.normalMenu, ul.footerMenu li a.normalMenu:visited,
+ul.footerMenu li a.hoverMenu, ul.footerMenu li a.hoverMenu:visited,
+ul.footerMenu li a.selectedMenu,ul.footerMenu li a.selectedMenu:visited {
+	outline:none;
+	padding:7px 10px;
+    color: #7f7f7f;
+	display:block;
+}
+
+ul.footerMenu li a.hoverMenu, ul.footerMenu li a.hoverMenu:visited,
+ul.footerMenu li a.selectedMenu, ul.footerMenu li a.selectedMenu:visited {
+	margin-top:-30px;
+	color:#0da1eb;
+    background: transparent;
+}
+
+ul.footerMenu li a.selectedMenu,ul.footerMenu li a.selectedMenu:visited {
+	margin:0;
+}
+
+ul.footerMenu a.normalMenu, ul.footerMenu a.normalMenu:visited{
+	color:white;
+	background: transparent;
+}
